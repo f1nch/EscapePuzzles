@@ -1,0 +1,53 @@
+A series a puzzles the user must solve to "escape".
+
+Puzzle Ideas
+1. Draw a shape
+- use <canvas>
+- include a background image with a grid or dots for the user to connect
+- user must draw on the canvas (onmousedown event)
+- once the user hits specific coordinates on the canvas the puzzle unlocks
+
+2. Combination
+- user must enter the correct combination to unlock the puzzle
+- combination can be found via
+    - hidden numbers
+    - numbers hidden in words
+    - hidden letters
+    - only capitalized letters
+    - colors
+
+3. Sound
+- sounds played in a sequence
+- the user presses buttons that match the sequence of sounds (high pitch to low pitch)
+
+4. Stack objects
+- the user must stack 2+ objects on each other to solve the puzzle
+- eg: complete a photo, or overlay directions on a map, stack multiple items to reveal a combination, combine 2 objects into a single object (dead flashlight + batteries = working flashlight)
+
+5. Hidden value
+- Specific objects on the screen when connected make the shape of a letter or number
+
+6. Music
+- Play notes on an instrument to spell out a word
+
+7. Microphone
+- user must speak a phrase to complete the puzzle
+
+8. Find the word
+- user is given a set of possible options
+- using a second picture the user must select the correct combination of letters/words
+- each column will be a different colors
+- each row will include a value with one color from each of the columns
+    - th | as | be | qu | to
+
+9. coordinates
+- user discovers hidden coordinates
+- include a mini google map where the user can enter coordinates
+- coordinates take the user to a location where they must find the name of something to solve the puzzle
+
+10. Directions
+- User must use the up/down/left/right arrows on keyboard
+- either move an object on the screen or type in a specific combination
+
+11. Click
+- user clicks on a object to reveal another object or unlock the next step
